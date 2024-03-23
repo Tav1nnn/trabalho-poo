@@ -1,8 +1,8 @@
 <?php
 
-require_once 'Aluno.php';
-require_once 'Curso.php';
-require_once 'Turma.php';
+require_once 'model/Aluno.php';
+require_once 'model/Curso.php';
+require_once 'model/Turma.php';
 
 $curso = new Curso("TADS", 18);
 
