@@ -1,8 +1,8 @@
 <?php
 
-require_once 'Time.php';
-require_once 'Estadio.php';
-require_once 'Campeonato.php';
+require_once 'model/Time.php';
+require_once 'model/Estadio.php';
+require_once 'model/Campeonato.php';
 
 $neoQuimica = new Estadio('Neo Quimica Arena', 40000);
 $vilaBelmiro = new Estadio('Vila Belmiro', 4999);
